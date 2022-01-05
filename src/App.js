@@ -1,10 +1,10 @@
+import React from 'react';
+import Clock from './components/frontend/Clock';
 
 
 function App() {
   return (
-    <div>
-      <h1>Hellow World</h1>
-    </div>
+    <div><Clock locale="en-EN" /></div> 
   );
 }
 
